@@ -9,6 +9,7 @@ print('***************************************')
 print('My Coffee and Muffin Shop')
 print('Number of Coffees bought?')
 print(numberOfCoffees)
+print('***************************************')
 print('Number of Muffins bought?')
 print(numberOfMuffins)
 print('Number of Donuts bought?') 
@@ -21,14 +22,14 @@ print('***************************************')
 print('My Coffee and Muffin Shop Recipt')
 print(str(numberOfCoffees) + ' Coffees at $5 each: $' + str(numberOfCoffees * 5))
 print(str(numberOfMuffins) + ' Muffins at $4 each: $' + str(numberOfMuffins * 4))
-print(str(numberOfDonuts) + ' Donuts at $3 each: $' + str(numberOfDonuts * 3))
-print(str(numberOfTeas) + ' Teas at $4 each: $' + str(numberOfTeas * 4))
+print(str(numberofDonuts) + ' Donuts at $3 each: $' + str(numberOfDonuts * 3))
+print(str(numberOfTeas) + ' Teas at $4 each: $' + str(numberofTeas * 4))
 
 # setting variables to show taxes
 coffeeCost = numberOfCoffees * 5 
 muffinCost = numberOfMuffins * 4
-donutCost = numberOfDonuts * 3
-teaCost = numberOfTeas * 4
+donutCost = numberOfDonut * 3
+teaCost = numberOfTea * 4
 totalCost = coffeeCost + muffinCost + donutCost + teaCost
 tax = totalCost * 0.06
 totalCostWithTax = totalCost + tax
