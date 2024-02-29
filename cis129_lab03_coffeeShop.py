@@ -40,4 +40,4 @@ print('---------')
 print(str('Total: $') + str(totalCostWithTax))
 
 print('Thank you for shopping at our coffee shop, have a nice day!!')
-print('***************************************')
+print('***************************************') 
